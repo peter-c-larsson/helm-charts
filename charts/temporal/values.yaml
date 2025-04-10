@@ -445,6 +445,9 @@ schema:
   resources: {}
   containerSecurityContext: {}
   securityContext: {}
+  jobttl:
+    enabled: true
+    seconds: 86400
 elasticsearch:
   enabled: true
   replicas: 3
